@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    position: relative;
+    background-color: aqua;
+    border: 2px solid red;
+    width: 100%;
+    height: 1000px;
+}
+.child{
+    margin: 10px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+   
+        
+    display: inline-block;
+
+}
+#child-1{
+    position: absolute;
+    
+    top: 0;
+    right: 0;
+        
+ 
+
+}
+#child-2{
+    position: sticky;
+   
+    top: 0;
+    right: 0;
+ 
+
+}
